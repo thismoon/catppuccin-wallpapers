@@ -1,0 +1,1 @@
+<h3>flatppuccin</h3><table><thead><tr><th>Author</th></tr></thead><tbody><tr><td><a href="https://github.com/AdalZanabria">AdalZanabria</a></td></tr><tr><td><img src="flatppuccin_4k_macchiato_inverted.png"/></td></tr><tr><td><a href="https://github.com/AdalZanabria">AdalZanabria</a></td></tr><tr><td><img src="flatppuccin_4k_macchiato.png"/></td></tr></tbody></table>

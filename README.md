@@ -11,9 +11,9 @@
     <a href="https://github.com/catppuccin/wallpapers/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/wallpapers?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
-### THIS REPOSITORY IS BEING REWORKED INTERNALLY.
-
-It will be back soon.
+<p align="center">
+  <img src="./minimalistic/flamingo_unicat.png" style="border-radius:2%"/>
+</p>
 
 ## 💝 Thanks to
 

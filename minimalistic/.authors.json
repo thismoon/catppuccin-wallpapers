@@ -190,7 +190,13 @@
     {
       "author_name": "Isabel",
       "author_url": "https://github.com/isabelincorp",
-      "image_url": "mo_catmoon.png",
+      "image_url": "mo_triangles.png",
+      "modified": false
+    },
+    {
+      "author_name": "Isabel",
+      "author_url": "https://github.com/isabelincorp",
+      "image_url": "l_catmoon.png",
       "modified": false
     },
     {

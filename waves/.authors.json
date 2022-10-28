@@ -2,16 +2,22 @@
   "name": "waves",
   "wallpapers": [
     {
-      "author_name": "elkrien",
-      "author_url": "https://github.com/elkrien",
-      "image_url": "cat-waves.png",
-      "modified": true
+      "author_name": "es183923",
+      "author_url": "https://github.com/es183923",
+      "image_url": "mo_waves.png",
+      "modified": false
     },
     {
-      "author_name": "elkrien",
-      "author_url": "https://github.com/elkrien",
-      "image_url": "cat-blue-eye.png",
-      "modified": true
+      "author_name": "es183923",
+      "author_url": "https://github.com/es183923",
+      "image_url": "mo_waves_right_colored.png",
+      "modified": false
+    },
+    {
+      "author_name": "es183923",
+      "author_url": "https://github.com/es183923",
+      "image_url": "mo_waves_colored.png",
+      "modified": false
     }
   ]
 }

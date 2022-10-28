@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="./minimalistic/flamingo_unicat.png" style="border-radius:2%"/>
+  <img src="minimalistic/ma_cat_line_red.png" style="border-radius:2%"/>
 </p>
 
 ## 🐱 Contribution guidelines 

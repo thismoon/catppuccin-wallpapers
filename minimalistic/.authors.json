@@ -4,6 +4,12 @@
     {
       "author_name": "Blue",
       "author_url": "https://github.com/BlueFalconHD",
+      "image_url": "mo_cats.png",
+      "modified": false
+    },
+    {
+      "author_name": "Blue",
+      "author_url": "https://github.com/BlueFalconHD",
       "image_url": "mo_list-aligned-right.png",
       "modified": false
     },

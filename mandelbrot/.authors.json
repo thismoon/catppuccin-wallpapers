@@ -1,5 +1,77 @@
 {
   "name": "mandelbrot",
   "wallpapers": [
+    {
+      "author_name": "Gingeh",
+      "author_url": "https://github.com/Gingeh",
+      "image_url": "l_mandelbrot_full.png",
+      "modified": false
+    },
+    {
+      "author_name": "Gingeh",
+      "author_url": "https://github.com/Gingeh",
+      "image_url": "l_mandelbrot_gap.png",
+      "modified": false
+    },
+    {
+      "author_name": "Gingeh",
+      "author_url": "https://github.com/Gingeh",
+      "image_url": "l_mandelbrot_side.png",
+      "modified": false
+    },
+    {
+      "author_name": "Gingeh",
+      "author_url": "https://github.com/Gingeh",
+      "image_url": "f_mandelbrot_full.png",
+      "modified": false
+    },
+    {
+      "author_name": "Gingeh",
+      "author_url": "https://github.com/Gingeh",
+      "image_url": "f_mandelbrot_gap.png",
+      "modified": false
+    },
+    {
+      "author_name": "Gingeh",
+      "author_url": "https://github.com/Gingeh",
+      "image_url": "f_mandelbrot_side.png",
+      "modified": false
+    },
+    {
+      "author_name": "Gingeh",
+      "author_url": "https://github.com/Gingeh",
+      "image_url": "ma_mandelbrot_full.png",
+      "modified": false
+    },
+    {
+      "author_name": "Gingeh",
+      "author_url": "https://github.com/Gingeh",
+      "image_url": "ma_mandelbrot_gap.png",
+      "modified": false
+    },
+    {
+      "author_name": "Gingeh",
+      "author_url": "https://github.com/Gingeh",
+      "image_url": "ma_mandelbrot_side.png",
+      "modified": false
+    },
+    {
+      "author_name": "Gingeh",
+      "author_url": "https://github.com/Gingeh",
+      "image_url": "mo_mandelbrot_full.png",
+      "modified": false
+    },
+    {
+      "author_name": "Gingeh",
+      "author_url": "mo_https://github.com/Gingeh",
+      "image_url": "mandelbrot_gap.png",
+      "modified": false
+    },
+    {
+      "author_name": "Gingeh",
+      "author_url": "mo_https://github.com/Gingeh",
+      "image_url": "mandelbrot_side.png",
+      "modified": false
+    }
   ]
 }

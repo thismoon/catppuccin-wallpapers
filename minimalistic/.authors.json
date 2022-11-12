@@ -228,6 +228,18 @@
       "author_url": "https://github.com/Gingeh",
       "image_url": "lavender-cat.png",
       "modified": false
+    },
+    {
+      "author_name": "rubyowo",
+      "author_url": "https://github.com/rubyowo",
+      "image_url": "mauve-cat.png",
+      "modified": false
+    },
+    {
+      "author_name": "rubyowo",
+      "author_url": "https://github.com/rubyowo",
+      "image_url": "mauve_unicat.png",
+      "modified": false
     }
   ]
 }

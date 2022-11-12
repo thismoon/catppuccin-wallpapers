@@ -20,13 +20,13 @@ jobs:
         uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
-      - name: Update READMEs
-        run: deno run --allow-read --allow-write generate.tsx
       - name: Cache Deno dependencies
         uses: actions/cache@v2
         with:
           key: ${{ hashFiles('lock.json') }}
           path: ${{ env.DENO_DIR }}
+      - name: Update READMEs
+        run: deno run --allow-read --allow-write generate.tsx
       - name: Push changes
         uses: stefanzweifel/git-auto-commit-action@v4
         with:

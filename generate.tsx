@@ -1,6 +1,7 @@
 #!/usr/bin/env -S deno run --allow-read --allow-write
 import React from "https://esm.sh/react@18.2.0";
 import { renderToString } from "https://esm.sh/react-dom@18.2.0/server";
+import { parse } from "https://deno.land/std@0.163.0/encoding/yaml.ts";
 
 interface CategoryInfo {
   name: string;
@@ -60,13 +61,13 @@ for await (const dirEntry of Deno.readDir(".")) {
     let content = "";
 
     try {
-      content = await Deno.readTextFile(`./${dirEntry.name}/.authors.json`);
+      content = await Deno.readTextFile(`./${dirEntry.name}/.authors.yml`);
     } catch (_) {
       console.warn(`No README.md found in ${dirEntry.name}`);
       continue;
     }
 
-    const data = JSON.parse(content) as CategoryInfo;
+    const data = parse(content) as CategoryInfo;
     const mdTable = renderToString(Table(data));
     await Deno.writeTextFile(`${dirEntry.name}/README.md`, mdTable);
     console.log(`Generated README.md for ${dirEntry.name}`);

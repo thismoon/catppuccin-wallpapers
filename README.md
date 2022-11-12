@@ -12,9 +12,33 @@
 </p>
 
 <p align="center">
-  <img src="./minimalistic/flamingo_unicat.png" style="border-radius:2%"/>
+  <img src="minimalistic/ma_cat_line_red.png" style="border-radius:2%"/>
 </p>
 
+## 🐱 Contribution guidelines 
+To maintain quality of the wallpapers in the repository, we have a few guidelines that need to be followed:
+- Only Original content will be accepted in the repository. If you are not the original author of a wallpaper, do not make a pull request to get the wallpaper added. 
+- Wallpapers need to be at least 1920\*1080 in resolution. 
+- Wallpapers should be in `jpg` or `png` format only. SVGs are not allowed. 
+- Wallpapers need to follow a specific naming scheme: 
+  ```
+  l_img_name.png # for latte 
+  f_img_name.png # for frappe 
+  ma_img_name.png # for macchiato 
+  mo_img_name.png # for mocha 
+  o_img_name.jpg # other (in case wallpapers is a mix of other colourschemes as well) 
+  ```
+- Do not open an issue with your images. To get images added, please make a pull request against the repository. 
+- You need also need to add your information in the `.authors.json` file in whichever folder you are adding your image. Example: 
+  If you are adding your wallpaper in the `misc/` folder, edit `misc/.authors.json` in the following format: 
+  ```JSON
+    {
+      "author_name": "your_github_username",
+      "author_url": "your_github_url",
+      "image_url": "name_of_your_added_image.png",
+      "modified": false
+    }
+  ```
 ## 💝 Thanks to
 
 - Everyone who submits their wallpapers!

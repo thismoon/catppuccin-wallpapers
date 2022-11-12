@@ -1,1 +1,0 @@
-<h3>patterns</h3><table><thead><tr><th>Author</th></tr></thead><tbody><tr><td><a href="https://github.com/Pocco81">Pocco81</a></td></tr><tr><td><img src="emojis.png"/></td></tr><tr><td><a href="https://github.com/Pocco81">Pocco81</a></td></tr><tr><td><img src="line_icons.png"/></td></tr></tbody></table>

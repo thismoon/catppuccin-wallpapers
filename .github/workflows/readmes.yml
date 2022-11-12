@@ -1,33 +1,33 @@
 name: Generate READMEs
 
 on:
-    push:
-        branches: [main]
-    pull_request:
-        branches: [main]
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
 
 env:
-    DENO_DIR: deno_cache
+  DENO_DIR: deno_cache
 
 jobs:
-    test:
-        runs-on: ubuntu-latest
+  test:
+    runs-on: ubuntu-latest
 
-        steps:
-            - name: Git Checkout Deno Module
-              uses: actions/checkout@v2
-            - name: Set up Deno
-              uses: denoland/setup-deno@v1
-              with:
-                  deno-version: v1.x
-            - name: Update READMEs
-              run: deno run --allow-read --allow-write generate.tsx
-            - name: Cache Deno dependencies
-              uses: actions/cache@v2
-              with:
-                  key: ${{ hashFiles('lock.json') }}
-                  path: ${{ env.DENO_DIR }}
-            - name: Push changes
-              uses: stefanzweifel/git-auto-commit-action@v4
-              with:
-                  commit_message: "chore: re-generate READMEs"
+    steps:
+      - name: Git Checkout Deno Module
+        uses: actions/checkout@v2
+      - name: Set up Deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+      - name: Update READMEs
+        run: deno run --allow-read --allow-write generate.tsx
+      - name: Cache Deno dependencies
+        uses: actions/cache@v2
+        with:
+          key: ${{ hashFiles('lock.json') }}
+          path: ${{ env.DENO_DIR }}
+      - name: Push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "chore: re-generate READMEs"

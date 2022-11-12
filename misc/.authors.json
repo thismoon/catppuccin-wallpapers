@@ -72,6 +72,24 @@
       "author_url": "https://github.com/ghostx31/",
       "image_url": "spooky_spill.jpg",
       "modified": false
+    },
+    {
+        "author_name": "es183923",
+        "author_url": "https://github.com/es183923",
+        "image_url": "waves.png",
+        "modified": false
+    },
+    {
+        "author_name": "es183923",
+        "author_url": "https://github.com/es183923",
+        "image_url": "waves_right_colored.png",
+        "modified": false
+    },
+    {
+        "author_name": "es183923",
+        "author_url": "https://github.com/es183923",
+        "image_url": "waves_colored.png",
+        "modified": false
     }
   ]
 }

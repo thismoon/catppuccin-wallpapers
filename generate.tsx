@@ -2,12 +2,12 @@
 import React from "https://esm.sh/react@18.2.0";
 import { renderToString } from "https://esm.sh/react-dom@18.2.0/server";
 
-export interface CategoryInfo {
+interface CategoryInfo {
   name: string;
   wallpapers: Wallpaper[];
 }
 
-export interface Wallpaper {
+interface Wallpaper {
   author_name: string;
   author_url: string;
   source_url: string;
@@ -31,6 +31,12 @@ const Table = (category: CategoryInfo): React.ReactElement => {
                 <tr>
                   <td>
                     <a href={info.author_url}>{info.author_name}</a>
+                    {info.source_url && (
+                      <>
+                        {" "}
+                        <a href={info.source_url}>(Source)</a>
+                      </>
+                    )}
                   </td>
                 </tr>
                 {info.image_url && (

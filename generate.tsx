@@ -15,7 +15,10 @@ interface Wallpaper {
   image_url?: string;
 }
 
-const Table = (category: CategoryInfo): React.ReactElement => {
+const Table = (
+  category: CategoryInfo,
+  directory: string
+): React.ReactElement => {
   return (
     <>
       <h3>{category.name}</h3>
@@ -27,6 +30,11 @@ const Table = (category: CategoryInfo): React.ReactElement => {
         </thead>
         <tbody>
           {category.wallpapers.map((info) => {
+            let imgUrl = info.image_url;
+            if (!imgUrl.startsWith("http")) {
+              imgUrl = `https://raw.githubusercontent.com/catppuccin/wallpapers/main/${directory}/${info.image_url}`;
+            }
+
             return (
               <>
                 <tr>
@@ -43,7 +51,9 @@ const Table = (category: CategoryInfo): React.ReactElement => {
                 {info.image_url && (
                   <tr>
                     <td>
-                      <img src={info.image_url} />
+                      <a href={imgUrl}>
+                        <img src={info.image_url} />
+                      </a>
                     </td>
                   </tr>
                 )}
@@ -68,7 +78,7 @@ for await (const dirEntry of Deno.readDir(".")) {
     }
 
     const data = parse(content) as CategoryInfo;
-    const mdTable = renderToString(Table(data));
+    const mdTable = renderToString(Table(data, dirEntry.name));
     await Deno.writeTextFile(`${dirEntry.name}/README.md`, mdTable);
     console.log(`Generated README.md for ${dirEntry.name}`);
   }
